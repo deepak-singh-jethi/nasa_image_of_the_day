@@ -156,14 +156,14 @@ label{
         padding: 20px 0px 20px 0px;
         gap: 10px;
    }
-   #prev_searches>h2{
+   #prev_searches>h2 ,#search-form>h2{
     font-size: 18px !important;
    }
   
 }
 @media only screen and (max-width:420px){
     #day_heading,#img_heading {
-            font-size: 16px;
+            font-size: 18px;
             padding: 5px 10px;
         }
     #img_info{
@@ -172,9 +172,9 @@ label{
     #current-image-container{
         width: 100vw;
     }
-    #search-form>h2, label,
+    #prev_searches>h2, label,
      #search-input,
-     #btn{
+     #btn,#search-form>h2{
         font-size: 15px;
     }
     #prev_searches{
