@@ -20,7 +20,7 @@
     height: fit-content;
 }
 #img_conatiner>img{
-    max-height: 700px;
+    max-height: 400px;
     width: auto;
     padding-left: 40px;
 }
