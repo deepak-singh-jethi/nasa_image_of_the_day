@@ -164,7 +164,7 @@ label{
 @media only screen and (max-width:420px){
     #day_heading,#img_heading {
             font-size: 18px;
-            padding: 5px 10px;
+            padding-top: 30px ;
         }
     #img_info{
         font-size: 14px;
@@ -182,7 +182,7 @@ label{
     }
     #img_info {
             width: 90% !important;
-            padding: 10px 5px 10px 5px;
+            padding: 0px 5px 10px 5px;
             font-size: 16px;
     }
      #img_conatiner {
