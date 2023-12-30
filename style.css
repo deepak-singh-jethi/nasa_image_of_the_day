@@ -20,7 +20,7 @@
   
 }
 #day_heading{
-    padding: 20px 40px;
+    padding: 40px 40px;
 
 }
 /* #img_conatiner{
@@ -144,7 +144,7 @@ label{
     }
     #day_heading,#img_heading{
         font-size: 20px;
-        padding: 10px 20px;
+        padding: 25px 10px;
     }
     #img_conatiner{
         max-width: 90%;
@@ -164,11 +164,8 @@ label{
 @media only screen and (max-width:420px){
     #day_heading,#img_heading {
             font-size: 18px;
-            padding-top: 30px ;
+            padding-block: 30px ;
         }
-    #img_info{
-        font-size: 14px;
-    } 
     #current-image-container{
         width: 100vw;
     }
