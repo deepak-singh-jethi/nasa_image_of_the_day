@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="current-image-container">
+      <h1 id="day_heading">NASA PICTURE OF THE DAY</h1>
+      <div id="img_conatiner">
+        <img
+          src="https://images.unsplash.com/photo-1703504260184-bd5c5b3719c2?q=80&w=2875&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="example Image" />
+      </div>
+
+      <h2 id="img_heading"></h2>
+      <p id="img_info"></p>
+    </div>
+
+    <form id="search-form">
+      <h2>Search for picture of the Day</h2>
+      <div>
+        <label for="search-input">Select a Date:</label>
+        <input type="date" id="search-input" name="dateInput" />
+        <button id="btn">Search</button>
+      </div>
+    </form>
+    <div id="prev_searches">
+      <h2>Previous Searches</h2>
+      <ul id="search-history"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

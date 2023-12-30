@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+#current-image-container{
+    background-color: #000;
+    color: white;
+    width: 100vw;
+    height: fit-content;
+    
+  
+}
+#day_heading{
+    padding: 20px 40px;
+
+}
+#img_conatiner{
+    width: 100%;
+    height: fit-content;
+}
+#img_conatiner>img{
+    max-height: 400px;
+    width: auto;
+    padding-left: 40px;
+}
+#img_heading{
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#img_info{
+    padding: 10px 50px 30px 40px;
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 200;
+}
+
+/* search section */
+
+#search-form{
+    padding: 50px 0px 40px 40px;
+    display: flex;
+    flex-direction: column;
+     gap: 30px;
+     height: fit-content;
+
+}
+#prev_searches{
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+#search-history{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
