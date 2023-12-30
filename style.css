@@ -20,7 +20,7 @@
     height: fit-content;
 }
 #img_conatiner>img{
-    max-height: 400px;
+    max-height: 700px;
     width: auto;
     padding-left: 40px;
 }
@@ -57,3 +57,4 @@
     gap: 20px;
     list-style: none;
 }
+

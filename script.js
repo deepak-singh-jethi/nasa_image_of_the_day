@@ -47,9 +47,14 @@ function printData(dataObj) {
   const explanation = dataObj.explanation;
   const title = dataObj.title;
   const img_src = dataObj.url;
+
+  //cache-busting parameter to the image URL => imestamp
+  const cacheBuster = new Date().getTime();
+  const imgSrcWithCacheBuster = `${img_src}?${cacheBuster}`;
+
   img_info.innerHTML = `${explanation}`;
   img_heading.innerHTML = `${title}`;
-  img.src = `${img_src}`;
+  img.src = `${imgSrcWithCacheBuster}`;
 }
 
 function saveSearch(date) {
