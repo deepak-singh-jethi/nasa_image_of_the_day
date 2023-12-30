@@ -6,9 +6,13 @@
 #current-image-container{
     background-color: #000;
     color: white;
-    width: 100vw;
+    width: 85vw;
     height: fit-content;
-    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-inline: auto;
   
 }
 #day_heading{
@@ -51,21 +55,22 @@
 /* form style */
 
 label{
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 10px;
 }
 #search-input{
     padding: 3px 6px;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 #btn{
     padding: 3px 16px;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 18px;
     border-radius: 8px;
     transition: all 0.8s ease;
     cursor: pointer;
+    outline: none;
 }
 #btn:hover{
     transform: scale(1.03);
@@ -75,21 +80,31 @@ label{
 /* search section */
 
 #search-form{
-    padding: 50px 0px 40px 40px;
     display: flex;
     flex-direction: column;
-     gap: 30px;
-     height: fit-content;
+    gap: 30px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 
 }
 #prev_searches{
-    padding-left: 40px;
-    margin-bottom: 40px;
-}
-#search-history{
-    margin-top: 30px;
+    margin-top: 50px;
+    padding: 50px 0px 60px 0px;
+    background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#search-history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     gap: 20px;
     list-style: none;
 }
